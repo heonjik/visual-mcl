@@ -21,6 +21,22 @@ MCL algorithm uses a **particle filter** to represent a probability distribution
 * AprilTag
 
 ## Build & Run
+### Build Catkin Workspace
+```
+# Step 1: create the catkin workspace
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+
+# Step 2: clone the repo into the src folder
+git clone https://github.com/heonjik/visual-mcl
+cd ~/catkin_ws
+
+# Step 4: build the workspace
+catkin_make
+
+# Step 5: source the setup file
+source devel/setup.bash
+```
 
 ## Project Structure
 ```
