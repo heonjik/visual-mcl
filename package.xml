@@ -1,28 +1,19 @@
-<package>
+<package format="2">
   <name>visual-mcl</name>
   <version>0.0.1</version>
-  
-  <description>MCL with AprilTag for Gazebo simulation robot localization.</description>
-
-  <maintainer email="hji.kim@utoronto.ca">Hyunji Kim</maintainer>
-
+  <description>
+  MCL with AprilTag for Gazebo simulated robot localization.
+  </description>
+  <maintainer email="hji.kim@mail.utoronto.ca">Hyunji Kim</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>roscpp</build_depend>
-  <build_depend>geometry_msgs</build_depend>
-  <build_depend>sensor_msgs</build_depend>
-  <build_depend>tf2_ros</build_depend>
-  <build_depend>cv_bridge</build_depend>
-  <build_depend>apriltag_ros</build_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>apriltag_ros</depend>
+  <depend>cv_bridge</depend>
 
-  <exec_depend>roscpp</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>cv_bridge</exec_depend>
-  <exec_depend>apriltag_ros</exec_depend>
-
-  <export></export>
 </package>
