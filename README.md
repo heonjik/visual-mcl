@@ -21,6 +21,20 @@ MCL algorithm uses a **particle filter** to represent a probability distribution
 * AprilTag
 
 ## Build & Run
+### Docker
+```
+# Build a docker image
+docker build -t <named-image> .
+
+# Create a docker container (-it for interactive)
+docker run -it --name <named-container> \
+    --workdir /home/dev/catkin_ws \
+     <named-image>
+
+# Start the container (-i for interactive)
+docker start -i named-container
+```
+
 ### Build Catkin Workspace
 ```
 # Step 1: create the catkin workspace
