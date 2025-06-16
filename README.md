@@ -12,13 +12,12 @@ MCL algorithm uses a **particle filter** to represent a probability distribution
 4. **Resampling**: normalize particle weights and resample a new set of particles (proportional to their weights).
 
 > [!NOTE]
-> This project will use **AprilTag** detections as a sensor model, enabling the robot to localize only with image data.
+> This project will use KITTI dataset.
 
 ## Requirements
 * ROS Noetic
 * C++
 * OpenCV
-* AprilTag
 
 ## Build & Run
 ### Docker
