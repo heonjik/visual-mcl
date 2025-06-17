@@ -2,7 +2,7 @@
   <name>visual-mcl</name>
   <version>0.0.1</version>
   <description>
-  MCL with AprilTag for Gazebo simulated robot localization.
+  MCL with KITTI dataset for robot localization.
   </description>
   <maintainer email="hji.kim@mail.utoronto.ca">Hyunji Kim</maintainer>
   <license>MIT</license>
