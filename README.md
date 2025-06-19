@@ -12,7 +12,7 @@ MCL algorithm uses a **particle filter** to represent a probability distribution
 4. **Resampling**: normalize particle weights and resample a new set of particles (proportional to their weights).
 
 > [!NOTE]
-> This project will use KITTI dataset.
+> This project will use AprilTag Gazebo simulation.
 
 ## Requirements
 * ROS Noetic

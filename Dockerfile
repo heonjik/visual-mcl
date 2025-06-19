@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
     bash git curl wget sudo build-essential cmake \
     python3-pip \
     ros-noetic-apriltag-ros \
+    ros-noetic-turtlebot3-gazebo \
+    ros-noetic-turtlebot3-simulations \
     ros-noetic-rviz \
     ros-noetic-tf2-ros \
     ros-noetic-geometry-msgs \
